@@ -45,8 +45,8 @@
 }
 
 .checkbox {
-  width: var(--checkbox-size);
-  height: var(--checkbox-size);
+  width: var(--checkbox-box-size);
+  height: var(--checkbox-box-size);
   border-radius: var(--checkbox-radius);
   border: 1px solid var(--checkbox-border);
   background: var(--checkbox-bg);

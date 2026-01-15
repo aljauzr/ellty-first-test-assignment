@@ -11,7 +11,7 @@
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-main);
 
-  --canvas-bg: #f2f2f2;
+  --canvas-bg: #ffffff;
   --text-main: #1f2128;
 
   --button-bg: #ffce22;
@@ -20,7 +20,8 @@
   --button-height: 40px;
   --button-radius: 4px;
 
-  --checkbox-size: 25px;
+  --checkbox-size: 35px;
+  --checkbox-box-size: 23px;
   --checkbox-radius: 6px;
   --checkbox-border: #e3e3e3;
   --checkbox-opacity: 0.6;

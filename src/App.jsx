@@ -41,7 +41,7 @@ function App() {
                   aria-hidden="true"
                 >
                   <path
-                    d="M0 5.52 L5.64 11.04 L15.64 0"
+                    d="M0.5 5.52 L5.64 10.54 L15.14 0.5"
                     stroke="currentColor"
                     strokeWidth="1"
                     strokeLinecap="round"
@@ -71,7 +71,7 @@ function App() {
                       aria-hidden="true"
                     >
                       <path
-                        d="M0 5.52 L5.64 11.04 L15.64 0"
+                        d="M0.5 5.52 L5.64 10.54 L15.14 0.5"
                         stroke="currentColor"
                         strokeWidth="1"
                         strokeLinecap="round"
