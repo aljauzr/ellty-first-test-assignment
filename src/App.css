@@ -78,10 +78,12 @@
   border-radius: var(--card-radius);
   border: 1px solid var(--card-border);
   box-shadow: var(--card-shadow);
-  padding: 10px 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   gap: 0;
+  overflow: hidden;
 }
 
 .card-row {
@@ -102,7 +104,6 @@
 
 .card-row--full {
   width: 370px;
-  margin: 0 -15px;
 }
 
 .all-pages-label {
@@ -131,7 +132,7 @@
   width: 370px;
   height: 20px;
   padding: 10px 15px;
-  margin: 0 -15px;
+  gap: 10px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -146,10 +147,9 @@
 }
 
 .button-frame {
-  width: calc(100% + 32px);
+  width: 370px;
   height: 60px;
   padding: 10px 15px;
-  margin: 0 -15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,7 +163,6 @@
   gap: 0;
   width: calc(100% + 30px);
   height: 168px;
-  margin: 0 -15px;
   padding: 0;
   overflow-y: auto;
   scrollbar-width: none;
@@ -224,11 +223,13 @@
 .checkbox-control input:active + .checkbox--interactive {
   border-color: var(--checkbox-border-active);
   background: var(--checkbox-bg-active);
+  box-shadow: 0 0 0 3px var(--checkbox-focus-ring);
 }
 
 .checkbox-control input:active:checked + .checkbox--interactive {
   background: var(--checkbox-checked-active);
   border-color: var(--checkbox-checked-active);
+  box-shadow: 0 0 0 3px var(--checkbox-focus-ring);
 }
 
 .checkbox-control input:focus-visible + .checkbox--interactive {
